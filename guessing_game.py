@@ -39,7 +39,6 @@ def easy_game(easy_rand_number):
 
 def hard_game(hard_rand_number):
   global level_hard
-  print(hard_rand_number)
   while level_hard != 0:
     print(f"You have {level_hard} attempts remaining to guess the number.")
     guess = int(input("Make a guess: "))
